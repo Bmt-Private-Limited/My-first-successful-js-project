@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PRACTIC</title>
+    <script src="https://kit.fontawesome.com/339bdb5343.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+         <div id="landingPage">
+            <input type="button" value="LON IN" id="loginBtn">
+            <input type="button" value="SING UP" id="singupBtn" onclick="load()">
+         </div>
+    </form>  
+    <form>
+        <div id="singUpForm">
+            <i class="fas fa-backspace back1" id="back">BACK TO MAIN PAGE</i>
+            <h1 id="formHeading">*SING UP HERE*</h1>
+           <div id="inputArea">
+                <input type="text" placeholder="ENTER YOUR FIRST NAME" class="input">
+                <input type="text" placeholder="ENTER YOUR LAST NAME" class="input">
+                <input type="email" placeholder="ENTER YOUR E-MAIL" class="input">
+                <input type="number" placeholder="ENTER YOUR MOBILE NUMBER" class="input">
+                <input type="date" placeholder="ENTER YOUR D-O-B" class="input">
+                <input type="password" placeholder="ENTER A NEW PASSWORD" class="input">
+                <input type="password" placeholder="ENTER YOUR OLD PASSWORD" class="input">
+           </div>
+           <div id="cast">
+             <h2 class="fromSubHeading">*CAST*</h2>
+               <input type="radio" name="cast" class="radioBtn" checked>S.C
+               <input type="radio" name="cast" class="radioBtn">S.T
+               <input type="radio" name="cast" class="radioBtn">O.B.C
+               <input type="radio" name="cast" class="radioBtn">GENERAL
+               <input type="radio" name="cast" class="radioBtn">OTHERS
+           </div>
+           <div id="interest">
+             <h2 class="fromSubHeading">*INTEREST*</h2>
+               <input type="checkbox" name="" class="radioBtn">CRICKET
+               <input type="checkbox" name="" class="radioBtn">FOOTBALL
+               <input type="checkbox" name="" class="radioBtn">HOCKEY<br/>
+               <input type="checkbox" name="" class="radioBtn" checked>BADMINTON 
+               <input type="checkbox" name="" class="radioBtn">LUDO 
+           </div>
+                     <select id="selectOption">
+                <optgroup label="*CHOOSE YOURS DISTRICT*">
+                    <option value="" >NADIA</option>
+                    <option value="">BANKURA</option>
+                    <option value="">MALDA</option>
+                    <option value="">KOLKATA</option>
+                    <option value="" selected>PURULIA</option>
+                    <option value="">MURSIDABAD</option>
+                    <option value="">COOCHBEAR</option>
+                </optgroup>
+            </select>
+              <input type="button" value="SING UP"   class="fromBtn" id="afterSingUpPage">
+          <input type="reset" value="RESET" class="fromBtn" onclick="alert('ARE YOU SURE TO RESET YOUR ALL DATA ??');">
+        </div>
+    </form>
+    <form>
+        <div id="logInForm">
+            <i class="fas fa-backspace back" id="back1">BACK TO MAIN PAGE</i>
+            <h1 id="formHeading">LOG IN HERE</h1>
+            <div id="logInArea">
+                <input type="email" placeholder="ENTER YOURS E-MAIL" class="input">
+                <input type="password" placeholder="ENTER YOURS PASSWORD" class="input">
+                <input type="button" value="LOG IN" class="fromBtn" id="afterLogInBtn">
+            </div>
+        </div>
+    </form>
+
+    <div id="afterLogIn">
+        <i class="fas fa-backspace back1" id="back2">BACK TO MAIN PAGE</i>
+
+    </div>
+    <div id="afterSingUp">
+            <pre>THANKS FOR SIGN UP IN OUR WEBSITE :) :) :)
+            HAVE A NICE DAY!</pre> 
+                <i class="fas fa-backspace back1" id="back3">BACK TO MAIN PAGE</i>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

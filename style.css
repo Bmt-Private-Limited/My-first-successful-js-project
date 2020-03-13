@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    background: url(https://wallpaperstock.net/wallpapers/thumbs1/28530wide.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#landingPage{
+    width: 216px;
+    line-height: 83px;
+    background-color: #5b747424;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: 1s;
+    position: fixed;
+    top: 305px;
+    left: 651px;
+    }
+#singupBtn{
+    padding: 10px 20px;
+    margin: 14px;
+    box-shadow: inset -1px -1px 7px black;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+
+}
+#loginBtn{
+    padding: 10px 20px;
+    margin: 14px;
+    border-radius: 16px;
+    box-shadow: inset -1px -1px 7px black;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+
+div#singUpForm {
+    left: 37.5%;
+    position: fixed;
+    top: 15px;
+    background: #21c42d42;
+    width: 26.5%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    transform: scale(0);
+    transition: 1.2s;
+    height: 676px;
+    }
+
+div#inputArea {
+    padding: 0 16px 6px 16px;
+}
+
+input.input {
+    width: 96.5%;
+    padding: 5px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background-color: #f1efefd4;
+}
+
+div#cast {
+    font-size: 17px;
+    background-color: #8b777754;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 375px;
+    margin: 0 18px;
+}
+
+h2.fromSubHeading {
+    margin-bottom: 12px;
+    color: azure;
+    margin-top: 0;
+}
+
+div#interest {
+    margin: 10px 16px;
+    width: 378px;
+    padding: 14px 0px;
+    background-color: #8b777754;
+    border-radius: 10px;
+}
+
+
+select#selectOption {
+    width: 89%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 11px 0px #00000080;
+    background-color: #f1efefd4;
+}
+
+input.fromBtn {
+    width: 89%;
+    padding: 6px;
+    margin: 4px 0;
+    border-radius: 15px;
+    text-shadow: 0 0 5px #0000005e;
+    font-size: 16px;
+    box-shadow: inset -2px -2px 2px #00000094;
+    font-weight: 600;
+
+}
+
+input.radioBtn {
+    margin: 0 0 0 4px;
+}
+
+h1#formHeading {text-shadow: -1px 1px 1px black;color: chartreuse;margin-bottom: 5px;}
+
+div#logInForm {
+    left: 37.5%;
+    position: fixed;
+    top: 252px;
+    background: #21c42d42;
+    width: 26.5%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    transform: scale(0);
+    transition: 1s;
+    height: 186px;
+    }
+
+.back{
+    position: absolute;
+    top: 181px;
+    left: 119px;
+    cursor: pointer;
+    box-shadow: 0 0 6px black;
+}
+.back1{
+    position: absolute;
+    top: 673px;
+    left: 131px;
+    cursor: pointer;
+    box-shadow: 0 0 6px white;
+}
+#afterLogIn{
+    width: 100%;
+    height: 722px;
+    background: url(https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/wysiwyg/500error_0.jpg?itok=A6kxZZJj);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scaleX(0);
+    transition: 1s;
+    position: fixed;
+    font-size: 40px;
+}
+
+#afterSingUp{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    height: 722px;
+    background-color: #b2a7a7;
+    transform:scaleX(0);
+    transition: 1s;
+    position: fixed;
+}
+
+pre {
+    margin-top: 273px;
+}
