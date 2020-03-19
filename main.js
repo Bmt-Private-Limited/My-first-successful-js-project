@@ -10,10 +10,10 @@ function load() {
 document.getElementById("singupBtn").addEventListener("click" , function(){
 
     document.getElementById("singUpForm").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:1"
     )
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
 
 })
@@ -24,10 +24,10 @@ document.getElementById("singupBtn").addEventListener("click" , function(){
 document.getElementById("afterSingUpPage").addEventListener("click" , function(){
 
     document.getElementById("afterSingUp").setAttribute(
-        "style","transform:scaleX(1)"
+        "style","transform:scaleX(1); opacity:1"
     )
     document.getElementById("singUpForm").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
 
 })
@@ -38,10 +38,10 @@ document.getElementById("afterSingUpPage").addEventListener("click" , function()
 document.getElementById("loginBtn").addEventListener("click" , function(){
 
     document.getElementById("logInForm").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:1"
     )
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
 
 })
@@ -51,10 +51,10 @@ document.getElementById("loginBtn").addEventListener("click" , function(){
 document.getElementById("afterLogInBtn").addEventListener("click" , function(){
 
     document.getElementById("logInForm").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
     document.getElementById("afterLogIn").setAttribute(
-        "style","transform:scaleX(1)"
+        "style","transform:scaleX(1); opacity:1"
     )
 
 })
@@ -65,11 +65,11 @@ document.getElementById("afterLogInBtn").addEventListener("click" , function(){
 document.getElementById("back").addEventListener("click" , function(){
 
     document.getElementById("singUpForm").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
 
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:1"
     )
 
 })
@@ -81,11 +81,11 @@ document.getElementById("back").addEventListener("click" , function(){
 document.getElementById("back1").addEventListener("click" , function(){
 
     document.getElementById("logInForm").setAttribute(
-        "style","transform:scaleY(0)"
+        "style","transform:scaleY(0); opacity:0"
     )
 
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:1"
     )
 
 })
@@ -97,11 +97,11 @@ document.getElementById("back1").addEventListener("click" , function(){
 document.getElementById("back2").addEventListener("click" , function(){
 
     document.getElementById("afterLogIn").setAttribute(
-        "style","transform:scaleX(0)"
+        "style","transform:scaleX(0); opacity:"
     )
 
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:"
     )
 
 })
@@ -113,11 +113,11 @@ document.getElementById("back2").addEventListener("click" , function(){
 document.getElementById("back3").addEventListener("click" , function(){
 
     document.getElementById("afterSingUp").setAttribute(
-        "style","transform:scaleX(0)"
+        "style","transform:scaleX(0); opacity:"
     )
 
     document.getElementById("landingPage").setAttribute(
-        "style","transform:scaleY(1)"
+        "style","transform:scaleY(1); opacity:"
     )
 
 })
